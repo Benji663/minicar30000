@@ -1,9 +1,3 @@
-// WICHTIG FÜR VERCEL / GITHUB:
-// Bilder in den public Ordner legen:
-// hero.jpg
-// vito.jpg
-// Danach funktioniert die Website online korrekt.
-
 import { motion } from "framer-motion";
 
 export default function TaxiFunkWebsite() {
