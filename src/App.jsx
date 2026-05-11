@@ -14,7 +14,7 @@ export default function TaxiFunkWebsite() {
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,_#FFD700,_transparent_35%)] blur-3xl" />
 
         <img
-          src="/hero.jpg"
+          src="./public/hero.jpg"
           alt="Minicar 30000 Hero"
           className="absolute inset-0 w-full h-full object-cover brightness-[0.45] scale-[1.05]"
         />
@@ -210,7 +210,7 @@ export default function TaxiFunkWebsite() {
             <div className="absolute bottom-[76px] right-[88px] w-[118px] h-[34px] bg-[#0B0B0F]/90 backdrop-blur-xl rounded-lg z-20" />
 
             <img
-              src="/vito.jpg"
+              src="./public/hero.jpg"
               alt="Mercedes Vito Taxi"
               className="w-full h-[340px] sm:h-[540px] object-cover brightness-[0.88] contrast-[1.08] saturate-[0.95]"
             />
