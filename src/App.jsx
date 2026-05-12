@@ -491,19 +491,3 @@ target="_blank"
   </div>
 </div>
       </footer><section
-  id="datenschutz"
-  className="max-w-[1600px] mx-auto px-6 lg:px-12 py-20 text-gray-400"
->
-  <h2 className="text-4xl font-black text-white mb-8">
-    Datenschutzerklärung
-  </h2>
-
-  <p className="leading-relaxed max-w-4xl">
-    Ihre personenbezogenen Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.
-    Eine Weitergabe an Dritte erfolgt nicht ohne Ihre ausdrückliche Zustimmung.
-    Weitere Informationen erhalten Sie auf Anfrage.
-  </p>
-</section>
-    </div>
-  );
-}
