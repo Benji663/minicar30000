@@ -8,11 +8,18 @@ export default function App() {
       <section className="relative min-h-screen overflow-hidden">
 
         {/* HERO IMAGE */}
-        <img
-          src="/hero.jpg"
-          alt="Minicar 30000"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
+        <div className="absolute inset-0 overflow-hidden">
+ <img
+    src="/hero.jpg"
+    alt="Minicar 30000"
+    className="absolute right-0 top-0 w-[75%] h-full object-cover object-right"
+  />
+
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/85 to-transparent" />
+
+  <div className="absolute inset-0 bg-black/25" />
+
+</div>
 
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-black/45" />
@@ -89,7 +96,7 @@ export default function App() {
               Ihr zuverlässiger Fahrdienst in Wetzlar
             </div>
 
-            <h2 className="text-[4rem] sm:text-[6rem] lg:text-[8rem] font-black leading-[0.9] tracking-tight mb-10">
+            <h2 className="text-[3.2rem] sm:text-[4.8rem] lg:text-[6.5rem] font-black leading-[0.9] tracking-tight mb-10">
               Schnell.
               <br />
               Pünktlich.
