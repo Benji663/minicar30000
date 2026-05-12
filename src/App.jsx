@@ -490,4 +490,8 @@ target="_blank"
 
   </div>
 </div>
-      </footer><section
+            </footer>
+    </div>
+  );
+}
+     
