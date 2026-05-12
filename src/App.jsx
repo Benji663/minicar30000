@@ -89,7 +89,7 @@ export default function App() {
           </div>
 
           {/* HERO CONTENT */}
-          <div className="pt-14 sm:pt-20 lg:pt-24 pb-6 max-w-7xl">
+          <div className="pt-8 sm:pt-10 lg:pt-12 pb-6 max-w-7xl">
 
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-3 rounded-full text-sm text-gray-300 mb-10">
               <span className="text-yellow-400">★</span>
@@ -465,10 +465,44 @@ export default function App() {
           </div>
         </div>
 
-        <div className="text-center text-gray-600 mt-20">
-          © 2026 Minicar 30000
-        </div>
-      </footer>
+      <div className="border-t border-white/10 mt-20 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-500 text-sm">
+
+  <p>
+    © 2026 Minicar 30000
+  </p>
+
+  <div className="flex items-center gap-6">
+
+    <a
+      href="#impressum"
+      className="hover:text-yellow-400 transition"
+    >
+      Impressum
+    </a>
+
+    <a
+      href="#datenschutz"
+      className="hover:text-yellow-400 transition"
+    >
+      Datenschutzerklärung
+    </a>
+
+  </div>
+</div>
+      </footer><section
+  id="datenschutz"
+  className="max-w-[1600px] mx-auto px-6 lg:px-12 py-20 text-gray-400"
+>
+  <h2 className="text-4xl font-black text-white mb-8">
+    Datenschutzerklärung
+  </h2>
+
+  <p className="leading-relaxed max-w-4xl">
+    Ihre personenbezogenen Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet.
+    Eine Weitergabe an Dritte erfolgt nicht ohne Ihre ausdrückliche Zustimmung.
+    Weitere Informationen erhalten Sie auf Anfrage.
+  </p>
+</section>
     </div>
   );
 }
