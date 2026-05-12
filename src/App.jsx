@@ -481,7 +481,8 @@ export default function App() {
     </a>
 
     <a
-      href="#datenschutz"
+      href="https://www.e-recht24.de"
+target="_blank"
       className="hover:text-yellow-400 transition"
     >
       Datenschutzerklärung
