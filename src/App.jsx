@@ -15,7 +15,7 @@ export default function App() {
         />
 
         {/* OVERLAY */}
-        <div className="absolute inset-0 bg-black/65" />
+        <div className="absolute inset-0 bg-black/45" />
 
         {/* GOLD GLOW */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,215,0,0.18),_transparent_40%)]" />
@@ -82,7 +82,7 @@ export default function App() {
           </div>
 
           {/* HERO CONTENT */}
-          <div className="pt-24 sm:pt-32 lg:pt-40 pb-10 max-w-6xl">
+          <div className="pt-14 sm:pt-20 lg:pt-24 pb-6 max-w-7xl">
 
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-3 rounded-full text-sm text-gray-300 mb-10">
               <span className="text-yellow-400">★</span>
@@ -140,11 +140,11 @@ export default function App() {
       {/* ABOUT */}
       <section
         id="about"
-        className="relative py-24 lg:py-32 overflow-hidden"
+        className="relative py-10 lg:py-16 overflow-hidden -mt-10"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(255,215,0,0.08),_transparent_45%)]" />
 
-        <div className="relative z-10 max-w-[1600px] mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="relative z-10 max-w-[1600px] mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* TEXT */}
           <div>
