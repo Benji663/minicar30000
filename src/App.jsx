@@ -6,105 +6,132 @@ export default function App() {
       
       {/* HERO */}
       <section className="relative min-h-screen overflow-hidden">
-        
-        {/* Background Image */}
+
+        {/* HERO IMAGE */}
         <img
           src="/hero.jpg"
-          alt="Hero"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
+          alt="Minicar 30000"
+          className="absolute inset-0 w-full h-full object-cover"
         />
 
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/70" />
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-black/65" />
 
-        {/* Gradient */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,215,0,0.15),_transparent_40%)]" />
+        {/* GOLD GLOW */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,215,0,0.18),_transparent_40%)]" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-6 pb-16">
+        <div className="relative z-10 max-w-[1600px] mx-auto px-6 lg:px-12 pt-6 pb-20">
 
           {/* NAVBAR */}
-          <div className="border border-white/10 bg-black/40 backdrop-blur-xl rounded-3xl px-6 py-5 flex items-center justify-between">
+          <div className="backdrop-blur-xl bg-black/35 border border-white/10 rounded-3xl px-6 lg:px-8 py-5 flex items-center justify-between">
 
             <div>
-              <h1 className="text-3xl font-black">
+              <h1 className="text-2xl sm:text-3xl font-black tracking-tight">
                 Minicar <span className="text-yellow-400">30000</span>
               </h1>
 
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-400 text-sm mt-1">
                 Wetzlar • Seit über 25 Jahren
               </p>
             </div>
 
-            <div className="hidden lg:flex gap-8 text-sm text-gray-300">
-              <a href="#about" className="hover:text-yellow-400 transition">
+            <div className="hidden xl:flex items-center gap-8 text-sm text-gray-300">
+
+              <a
+                href="#about"
+                className="hover:text-yellow-400 transition"
+              >
                 Über uns
               </a>
 
-              <a href="#services" className="hover:text-yellow-400 transition">
-                Unsere Leistungen
+              <a
+                href="#services"
+                className="hover:text-yellow-400 transition"
+              >
+                Leistungen
               </a>
 
-              <a href="#contact" className="hover:text-yellow-400 transition">
+              <a
+                href="#contact"
+                className="hover:text-yellow-400 transition"
+              >
                 Vorbestellung
               </a>
 
-              <a href="#reviews" className="hover:text-yellow-400 transition">
+              <a
+                href="#reviews"
+                className="hover:text-yellow-400 transition"
+              >
                 Bewertungen
               </a>
 
-              <a href="#impressum" className="hover:text-yellow-400 transition">
+              <a
+                href="#impressum"
+                className="hover:text-yellow-400 transition"
+              >
                 Impressum
               </a>
             </div>
 
             <a
               href="tel:0644130000"
-              className="bg-yellow-400 text-black font-bold px-6 py-3 rounded-2xl hover:scale-105 transition"
+              className="bg-yellow-400 text-black font-bold px-5 sm:px-7 py-3 rounded-2xl hover:scale-105 transition duration-300 shadow-2xl"
             >
               ☎ 06441 30000
             </a>
           </div>
 
           {/* HERO CONTENT */}
-          <div className="pt-16 sm:pt-24 pb-10 max-w-4xl">
+          <div className="pt-24 sm:pt-32 lg:pt-40 pb-10 max-w-6xl">
 
-            <div className="inline-flex items-center gap-2 border border-white/10 bg-white/5 px-4 py-2 rounded-full text-sm text-gray-300 mb-8">
+            <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-3 rounded-full text-sm text-gray-300 mb-10">
               <span className="text-yellow-400">★</span>
               Ihr zuverlässiger Fahrdienst in Wetzlar
             </div>
 
-            <h2 className="text-6xl sm:text-7xl lg:text-8xl font-black leading-[0.95] mb-8">
+            <h2 className="text-[4rem] sm:text-[6rem] lg:text-[8rem] font-black leading-[0.9] tracking-tight mb-10">
               Schnell.
               <br />
-              Sicher.
+              Pünktlich.
               <br />
-              <span className="text-yellow-400">30Tausend.</span>
+              Zuverlässig.
+              <br />
+              <span className="text-yellow-400">
+                30tausend.
+              </span>
             </h2>
 
-            <p className="text-xl text-gray-300 max-w-2xl leading-relaxed mb-10">
-              Moderner Fahrservice – zuverlässig und rund um die Uhr erreichbar.
+            <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed max-w-3xl mb-14">
+              Moderner Fahrservice in Wetzlar – zuverlässig,
+              komfortabel und rund um die Uhr erreichbar.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-5 mb-12">
+            <div className="flex flex-col sm:flex-row gap-5 mb-14">
 
               <a
                 href="tel:0644130000"
-                className="bg-yellow-400 text-black font-bold px-10 py-5 rounded-3xl text-lg hover:scale-105 transition"
+                className="bg-yellow-400 text-black text-center font-bold text-lg px-10 py-5 rounded-3xl hover:scale-105 transition duration-300"
               >
                 Jetzt anrufen
               </a>
 
               <a
                 href="#contact"
-                className="border border-white/10 bg-white/5 px-10 py-5 rounded-3xl text-lg hover:bg-white/10 transition"
+                className="border border-white/10 bg-white/5 backdrop-blur-md text-center text-lg px-10 py-5 rounded-3xl hover:bg-white/10 transition duration-300"
               >
                 Vorbestellung anfragen
               </a>
             </div>
 
-            <div className="flex gap-8 text-gray-300">
-              <div>📍 Wetzlar & Umgebung</div>
-              <div>☎ 24h erreichbar</div>
+            <div className="flex flex-col sm:flex-row gap-6 text-gray-300 text-lg">
+
+              <div className="flex items-center gap-2">
+                📍 Wetzlar & Umgebung
+              </div>
+
+              <div className="flex items-center gap-2">
+                ☎ 24 Stunden erreichbar
+              </div>
             </div>
           </div>
         </div>
@@ -113,18 +140,20 @@ export default function App() {
       {/* ABOUT */}
       <section
         id="about"
-        className="relative py-24 overflow-hidden"
+        className="relative py-24 lg:py-32 overflow-hidden"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(255,215,0,0.08),_transparent_45%)]" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-20 items-center">
+        <div className="relative z-10 max-w-[1600px] mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 
+          {/* TEXT */}
           <div>
+
             <p className="text-yellow-400 tracking-[0.35em] uppercase text-sm mb-6">
               Seit über 25 Jahren in Wetzlar
             </p>
 
-            <h2 className="text-6xl font-black leading-tight mb-8">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-10">
               Persönlich.
               <br />
               Ortsnah.
@@ -132,11 +161,15 @@ export default function App() {
               Zuverlässig.
             </h2>
 
-            <p className="text-gray-300 text-xl leading-relaxed mb-10">
-              Minicar 30000 steht seit über 25 Jahren für zuverlässigen Fahrservice in Wetzlar und Umgebung.
+            <p className="text-xl text-gray-300 leading-relaxed mb-12 max-w-2xl">
+              Minicar 30000 steht seit über 25 Jahren für zuverlässigen
+              Fahrservice in Wetzlar und Umgebung.
+              Ob Flughafentransfer, Krankenfahrt oder Vorbestellung –
+              wir bringen unsere Fahrgäste sicher ans Ziel.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-5">
+
               {[
                 "24 Stunden erreichbar",
                 "Vorbestellungen möglich",
@@ -145,9 +178,11 @@ export default function App() {
               ].map((item, index) => (
                 <div
                   key={index}
-                  className="bg-white/5 border border-white/10 rounded-3xl px-6 py-5"
+                  className="bg-white/5 border border-white/10 rounded-3xl px-6 py-5 backdrop-blur-md"
                 >
-                  {item}
+                  <p className="text-lg font-semibold">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
@@ -155,13 +190,14 @@ export default function App() {
 
           {/* IMAGE */}
           <div className="relative">
+
             <img
               src="/vito.jpg"
-              alt="Mercedes Vito Taxi"
-              className="rounded-[40px] w-full h-[650px] object-cover"
+              alt="Mercedes Vito"
+              className="w-full h-[500px] lg:h-[750px] object-cover rounded-[40px]"
             />
 
-            <div className="absolute inset-0 rounded-[40px] bg-gradient-to-t from-black/50 to-transparent" />
+            <div className="absolute inset-0 rounded-[40px] bg-gradient-to-t from-black/50 via-transparent to-transparent" />
           </div>
         </div>
       </section>
@@ -169,37 +205,263 @@ export default function App() {
       {/* SERVICES */}
       <section
         id="services"
-        className="max-w-7xl mx-auto px-6 lg:px-8 py-24"
+        className="max-w-[1600px] mx-auto px-6 lg:px-12 py-24 lg:py-32"
       >
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
 
           <p className="text-yellow-400 tracking-[0.35em] uppercase text-sm mb-4">
             Unsere Leistungen
           </p>
 
-          <h2 className="text-5xl font-black">
+          <h2 className="text-5xl sm:text-6xl font-black">
             Unsere Fahrten & Services
           </h2>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6">
+
           {[
             "PKW & 9-Sitzer",
             "Flughafentransfer",
-            "Krankenfahrten",
+            "Kranken- & Dialysefahrten",
             "Kurierfahrten",
             "Schülerbeförderung",
             "Limousinenservice",
           ].map((item, index) => (
             <div
               key={index}
-              className="bg-white/5 border border-white/10 rounded-[32px] p-8 hover:border-yellow-400/30 transition"
+              className="bg-white/5 border border-white/10 rounded-[32px] p-10 hover:border-yellow-400/30 hover:-translate-y-1 transition duration-300 backdrop-blur-md"
             >
-              <p className="text-2xl font-semibold">{item}</p>
+              <p className="text-2xl font-semibold">
+                {item}
+              </p>
             </div>
           ))}
         </div>
       </section>
+
+      {/* CONTACT */}
+      <section
+        id="contact"
+        className="max-w-[1600px] mx-auto px-6 lg:px-12 py-24 lg:py-32"
+      >
+        <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 sm:p-12 lg:p-16 backdrop-blur-xl">
+
+          <div className="text-center mb-14">
+
+            <p className="text-yellow-400 tracking-[0.35em] uppercase text-sm mb-4">
+              Vorbestellung
+            </p>
+
+            <h2 className="text-5xl sm:text-6xl font-black mb-6">
+              Fahrt einfach vorbestellen
+            </h2>
+
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+              Nutzen Sie das Formular für geplante Fahrten,
+              Flughafentransfers oder Krankenfahrten.
+            </p>
+          </div>
+
+          <form
+            action="https://formsubmit.co/info@minicar30000.de"
+            method="POST"
+            className="grid md:grid-cols-2 gap-5 max-w-5xl mx-auto"
+          >
+
+            <input type="hidden" name="_captcha" value="false" />
+
+            <input
+              required
+              type="text"
+              name="name"
+              placeholder="Name *"
+              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+            />
+
+            <input
+              required
+              type="tel"
+              name="telefon"
+              placeholder="Telefonnummer *"
+              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+            />
+
+            <input
+              required
+              type="text"
+              name="abholort"
+              placeholder="Abholort *"
+              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+            />
+
+            <input
+              required
+              type="text"
+              name="zielort"
+              placeholder="Zielort *"
+              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+            />
+
+            <input
+              required
+              type="date"
+              name="datum"
+              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+            />
+
+            <input
+              required
+              type="time"
+              name="uhrzeit"
+              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+            />
+
+            <textarea
+              rows="5"
+              name="nachricht"
+              placeholder="Weitere Informationen (optional)"
+              className="md:col-span-2 bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+            />
+
+            <div className="md:col-span-2 flex items-start gap-3 bg-black/20 border border-white/10 rounded-2xl px-5 py-4">
+              <input
+                required
+                type="checkbox"
+                className="mt-1 accent-yellow-400"
+              />
+
+              <p className="text-sm text-gray-400">
+                Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu.
+              </p>
+            </div>
+
+            <button
+              type="submit"
+              className="md:col-span-2 bg-yellow-400 text-black font-bold text-lg py-5 rounded-3xl hover:scale-[1.01] transition"
+            >
+              Anfrage senden
+            </button>
+          </form>
+        </div>
+      </section>
+
+      {/* REVIEWS */}
+      <section
+        id="reviews"
+        className="max-w-[1600px] mx-auto px-6 lg:px-12 py-24 lg:py-32"
+      >
+        <div className="text-center mb-20">
+
+          <p className="text-yellow-400 tracking-[0.35em] uppercase text-sm mb-4">
+            Bewertungen
+          </p>
+
+          <h2 className="text-5xl sm:text-6xl font-black">
+            Das sagen unsere Fahrgäste
+          </h2>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-6">
+
+          {[
+            {
+              name: "Serdalabi",
+              text: "Immer pünktlich und unschlagbare Preise.",
+            },
+            {
+              name: "Jürgen B.",
+              text: "Sehr nette Fahrer. Man fühlt sich sicher und wohl.",
+            },
+            {
+              name: "Damjan Dajovic",
+              text: "Sympathische Fahrer und sehr zuverlässiger Service.",
+            },
+            {
+              name: "Baro",
+              text: "Einer der besten Fahrdienste in Wetzlar.",
+            },
+          ].map((review, index) => (
+            <div
+              key={index}
+              className="bg-white/5 border border-white/10 rounded-[32px] p-10 backdrop-blur-md"
+            >
+              <div className="text-yellow-400 text-2xl mb-5">
+                ★★★★★
+              </div>
+
+              <p className="text-xl text-gray-300 leading-relaxed mb-8">
+                “{review.text}”
+              </p>
+
+              <p className="font-semibold text-lg">
+                {review.name}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer
+        id="impressum"
+        className="border-t border-white/10 py-20 px-6 lg:px-12"
+      >
+        <div className="max-w-[1600px] mx-auto grid lg:grid-cols-2 gap-16">
+
+          <div>
+            <h3 className="text-5xl font-black mb-8">
+              Minicar <span className="text-yellow-400">30000</span>
+            </h3>
+
+            <p className="text-gray-400 text-lg leading-relaxed mb-10 max-w-xl">
+              Moderner Fahrservice – zuverlässig,
+              sicher und rund um die Uhr erreichbar.
+            </p>
+
+            <a
+              href="tel:0644130000"
+              className="inline-flex items-center gap-3 bg-yellow-400 text-black px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition"
+            >
+              ☎ 06441 30000
+            </a>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-10">
+
+            <div>
+              <h4 className="text-2xl font-bold mb-6">
+                Kontakt
+              </h4>
+
+              <div className="space-y-3 text-gray-400">
+                <p>VPW GmbH · Minicar 30000</p>
+                <p>Bahnhof Nordseite 10</p>
+                <p>35576 Wetzlar</p>
+                <p>06441 30000</p>
+                <p>info@minicar30000.de</p>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="text-2xl font-bold mb-6">
+                Unternehmen
+              </h4>
+
+              <div className="space-y-3 text-gray-400">
+                <p>Geschäftsführer: S. R. Salavati</p>
+                <p>HRB 6427</p>
+                <p>Amtsgericht Wetzlar</p>
+                <p>Finanzamt Gießen</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-center text-gray-600 mt-20">
+          © 2026 Minicar 30000
+        </div>
+      </footer>
     </div>
   );
 }
