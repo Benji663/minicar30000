@@ -27,7 +27,7 @@ export default function App() {
         {/* GOLD GLOW */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,215,0,0.18),_transparent_40%)]" />
 
-        <div className="relative z-10 max-w-[1600px] mx-auto px-6 lg:px-12 pt-6 pb-20">
+        <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-14 lg:px-12 pt-6 pb-20">
 
           {/* NAVBAR */}
           <div className="backdrop-blur-xl bg-black/35 border border-white/10 rounded-3xl px-6 lg:px-8 py-5 flex items-center justify-between">
@@ -89,7 +89,7 @@ export default function App() {
           </div>
 
           {/* HERO CONTENT */}
-          <div className="pt-8 sm:pt-10 lg:pt-12 pb-6 max-w-7xl">
+          <div className="pt-8 sm:pt-10 lg:pt-12 pb-6 max-w-[1500px]">
 
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-3 rounded-full text-sm text-gray-300 mb-10">
               <span className="text-yellow-400">★</span>
@@ -160,7 +160,7 @@ export default function App() {
               Seit über 25 Jahren in Wetzlar
             </p>
 
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-10">
+            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-relaxed mb-10">
               Persönlich.
               <br />
               Ortsnah.
@@ -412,7 +412,7 @@ export default function App() {
       {/* FOOTER */}
       <footer
         id="impressum"
-        className="border-t border-white/10 py-20 px-6 lg:px-12"
+        className="border-t border-white/10 py-28 px-6 lg:px-12"
       >
         <div className="max-w-[1600px] mx-auto grid lg:grid-cols-2 gap-16">
 
