@@ -15,7 +15,7 @@ export default function App() {
     className="absolute inset-0 w-full h-full object-cover object-center"
   />
 
-  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/95 via-[#050505]/70 to-transparent" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/88 via-[#050505]/45 to-transparent" />
 
   <div className="absolute inset-0 bg-black/25" />
 
@@ -46,35 +46,35 @@ export default function App() {
 
               <a
                 href="#about"
-                className="hover:text-yellow-400 transition"
+                className="text-white hover:text-yellow-400 transition"
               >
                 Über uns
               </a>
 
               <a
                 href="#services"
-                className="hover:text-yellow-400 transition"
+                className="text-white hover:text-yellow-400 transition"
               >
                 Leistungen
               </a>
 
               <a
                 href="#contact"
-                className="hover:text-yellow-400 transition"
+                className="text-white hover:text-yellow-400 transition"
               >
                 Vorbestellung
               </a>
 
               <a
                 href="#reviews"
-                className="hover:text-yellow-400 transition"
+                className="text-white hover:text-yellow-400 transition"
               >
                 Bewertungen
               </a>
 
               <a
                 href="#impressum"
-                className="hover:text-yellow-400 transition"
+                className="text-white hover:text-yellow-400 transition"
               >
                 Impressum
               </a>
@@ -475,7 +475,7 @@ export default function App() {
 
     <a
       href="#impressum"
-      className="hover:text-yellow-400 transition"
+      className="text-white hover:text-yellow-400 transition"
     >
       Impressum
     </a>
@@ -483,7 +483,7 @@ export default function App() {
     <a
       href="https://www.e-recht24.de"
 target="_blank"
-      className="hover:text-yellow-400 transition"
+      className="text-white hover:text-yellow-400 transition"
     >
       Datenschutzerklärung
     </a>
