@@ -89,7 +89,7 @@ export default function App() {
           </div>
 
           {/* HERO CONTENT */}
-         <div className="pt-10 sm:pt-14 lg:pt-16 pb-6 max-w-[1500px]">
+         <div className="pt-10 sm:pt-14 lg:pt-16 pb-6 max-w-[700px]">
 
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-3 rounded-full text-sm text-gray-300 mb-10">
               <span className="text-yellow-400">★</span>
@@ -124,7 +124,7 @@ export default function App() {
 
               <a
                 href="#contact"
-                className="border border-white/10 bg-white/5 backdrop-blur-md text-center text-lg px-10 py-5 rounded-3xl hover:bg-white/10 transition duration-300"
+                className="border border-white/10 bg-white/5 backdrop-blur-md text-white text-center text-lg px-10 py-5 rounded-3xl hover:bg-white/10 transition duration-300"
               >
                 Vorbestellung anfragen
               </a>
