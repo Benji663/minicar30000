@@ -15,14 +15,12 @@ export default function App() {
     className="absolute inset-y-0 right-0 w-[82%] h-full object-cover object-center"
   />
 
-  <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/60 to-transparent" />
-
-  <div className="absolute inset-0 bg-black/25" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/92 via-[#050505]/30 to-transparent" />
 
 </div>
 
         {/* OVERLAY */}
-        <div className="absolute inset-0 bg-black/45" />
+        <div className="absolute inset-0 bg-black/20" />
 
         {/* GOLD GLOW */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(255,215,0,0.18),_transparent_40%)]" />
