@@ -12,10 +12,10 @@ export default function App() {
  <img
     src="/hero.jpg"
     alt="Minicar 30000"
-    className="absolute right-0 top-0 w-[75%] h-full object-cover object-right"
+    className="absolute right-0 top-0 w-[82%] h-full object-cover object-right"
   />
 
-  <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/85 to-transparent" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/95 via-[#050505]/55 to-transparent" />
 
   <div className="absolute inset-0 bg-black/25" />
 
@@ -89,7 +89,7 @@ export default function App() {
           </div>
 
           {/* HERO CONTENT */}
-         <div className="pt-10 sm:pt-14 lg:pt-16 pb-6 max-w-[700px]">
+         <div className="pt-10 sm:pt-14 lg:pt-16 pb-6 max-w-[560px]">
 
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-3 rounded-full text-sm text-gray-300 mb-10">
               <span className="text-yellow-400">★</span>
