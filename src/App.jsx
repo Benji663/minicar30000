@@ -89,14 +89,14 @@ export default function App() {
           </div>
 
           {/* HERO CONTENT */}
-          <div className="pt-8 sm:pt-10 lg:pt-12 pb-6 max-w-[1500px]">
+          <div className="pt-10 sm:pt-14 lg:pt-16pb-6 max-w-[1500px]">
 
             <div className="inline-flex items-center gap-2 bg-white/10 border border-white/10 backdrop-blur-md px-5 py-3 rounded-full text-sm text-gray-300 mb-10">
               <span className="text-yellow-400">★</span>
               Ihr zuverlässiger Fahrdienst in Wetzlar
             </div>
 
-            <h2 className="text-[3.2rem] sm:text-[4.8rem] lg:text-[6.5rem] font-black leading-[0.9] tracking-tight mb-10">
+            <h2 className="text-[3rem] sm:text-[4.4rem] lg:text-[5.8rem] font-black leading-[0.98] tracking-tight mb-10">
               Schnell.
               <br />
               Pünktlich.
@@ -147,11 +147,11 @@ export default function App() {
       {/* ABOUT */}
       <section
         id="about"
-        className="relative py-10 lg:py-16 overflow-hidden -mt-10"
+        className="relative py-16 lg:py-24 overflow-hidden -mt-10"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(255,215,0,0.08),_transparent_45%)]" />
 
-        <div className="relative z-10 max-w-[1600px] mx-auto px-6 lg:px-12 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+        <div className="relative z-10 max-w-[1600px] mx-auto px-8 lg:px-16 grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* TEXT */}
           <div>
