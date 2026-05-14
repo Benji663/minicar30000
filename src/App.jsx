@@ -15,7 +15,7 @@ export default function App() {
     className="absolute right-0 top-0 w-[82%] h-full object-cover object-right"
   />
 
-  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/95 via-[#050505]/55 to-transparent" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/80 via-[#050505]/35 to-transparent
 
   <div className="absolute inset-0 bg-black/25" />
 
