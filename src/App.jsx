@@ -12,10 +12,10 @@ export default function App() {
  <img
     src="/hero.jpg"
     alt="Minicar 30000"
-    className="absolute inset-0 w-full h-full object-cover object-center"
+    className="absolute right-0 top-0 w-[75%] h-full object-cover object-right"
   />
 
-  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/88 via-[#050505]/45 to-transparent" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/85 to-transparent" />
 
   <div className="absolute inset-0 bg-black/25" />
 
@@ -283,7 +283,7 @@ export default function App() {
               type="text"
               name="name"
               placeholder="Name *"
-              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+              className="bg-black/30 text-white placeholder:text-gray-400 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
             />
 
             <input
@@ -291,7 +291,7 @@ export default function App() {
               type="tel"
               name="telefon"
               placeholder="Telefonnummer *"
-              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+              className="bg-black/30 text-white placeholder:text-gray-400 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
             />
 
             <input
@@ -299,7 +299,7 @@ export default function App() {
               type="text"
               name="abholort"
               placeholder="Abholort *"
-              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+              className="bg-black/30 text-white placeholder:text-gray-400 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
             />
 
             <input
@@ -307,21 +307,21 @@ export default function App() {
               type="text"
               name="zielort"
               placeholder="Zielort *"
-              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+              className="bg-black/30 text-white placeholder:text-gray-400 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
             />
 
             <input
               required
               type="date"
               name="datum"
-              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+              className="bg-black/30 text-white placeholder:text-gray-400 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
             />
 
             <input
               required
               type="time"
               name="uhrzeit"
-              className="bg-black/30 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
+              className="bg-black/30 text-white placeholder:text-gray-400 border border-white/10 rounded-3xl px-6 py-5 outline-none focus:border-yellow-400"
             />
 
             <textarea
