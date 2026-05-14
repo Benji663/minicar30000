@@ -96,7 +96,7 @@ export default function App() {
               Ihr zuverlässiger Fahrdienst in Wetzlar
             </div>
 
-            <h2 className="text-[3rem] sm:text-[4.4rem] lg:text-[5.8rem] font-black leading-[0.98] tracking-tight mb-10">
+            <h2 className="text-[2.7rem] sm:text-[4rem] lg:text-[5rem] font-black leading-[0.98] tracking-tight mb-10">
               Schnell.
               <br />
               Pünktlich.
