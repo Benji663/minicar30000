@@ -12,10 +12,10 @@ export default function App() {
  <img
     src="/hero.jpg"
     alt="Minicar 30000"
-    className="absolute inset-y-0 right-0 w-[82%] h-full object-cover object-center"
+    className="absolute inset-y-0 right-0 w-[100%] h-full object-cover object-center"
   />
 
-  <div className="absolute inset-0 bg-gradient-to-r from-[#050505]/92 via-[#050505]/30 to-transparent" />
+  <div className="absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/70 to-transparent" />
 
 </div>
 
