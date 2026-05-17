@@ -272,9 +272,6 @@ export default function App() {
   method="POST"
   className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-5xl mx-auto"
 >
-    
-
-          >
 
             <input type="hidden" name="_captcha" value="false" />
 
