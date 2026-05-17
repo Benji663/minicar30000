@@ -250,7 +250,7 @@ export default function App() {
         id="contact"
         className="max-w-[1600px] mx-auto px-6 lg:px-12 py-24 lg:py-32"
       >
-        <div className="bg-white/5 border border-white/10 rounded-[40px] p-8 sm:p-12 lg:p-16 backdrop-blur-xl">
+        <div className="bg-white/5 border border-white/10 rounded-[40px] p-4 sm:p-8 lg:p-16 backdrop-blur-xl overflow-hidden">
 
           <div className="text-center mb-14">
 
@@ -269,9 +269,10 @@ export default function App() {
           </div>
 
           <form
-            action="https://formsubmit.co/info@minicar30000.de"
-            method="POST"
-            className="grid md:grid-cols-2 gap-5 max-w-5xl mx-auto"
+ action="https://formsubmit.co/info@minicar30000.de"
+  method="POST"
+  className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-5xl mx-auto"
+>
           >
 
             <input type="hidden" name="_captcha" value="false" />
