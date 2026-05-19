@@ -1,6 +1,37 @@
 import { motion } from "framer-motion";
+import emailjs from '@emailjs/browser';
 
 export default function App() {
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const form = e.target;
+
+  const templateParams = {
+    name: form.name.value,
+    phone: form.telefon.value,
+    pickup: form.abholort.value,
+    destination: form.zielort.value,
+    message: form.nachricht.value,
+  };
+
+  try {
+    await emailjs.send(
+      'service_9g6ctdd',
+      'template_p9cuedk',
+      templateParams,
+      'QfgmPxq9OqBWyiQxS'
+    );
+
+    alert('Anfrage erfolgreich gesendet!');
+    form.reset();
+
+  } catch (error) {
+    console.error(error);
+    alert('Fehler beim Senden.');
+  }
+};
+  
   return (
     <div className="bg-[#050505] text-white overflow-hidden">
       
@@ -268,8 +299,7 @@ export default function App() {
             </p>
           </div>
 <form
-  action="https://formsubmit.co/info@minicar30000.de"
-  method="POST"
+  onSubmit={handleSubmit}
   className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-5xl mx-auto"
 >
 
