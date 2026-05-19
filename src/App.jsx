@@ -8,6 +8,7 @@ export default function App() {
   const form = e.target;
 
   const templateParams = {
+    time: new Date().toLocaleString('de-DE'),
     name: form.name.value,
     phone: form.telefon.value,
     pickup: form.abholort.value,
